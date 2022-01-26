@@ -20,5 +20,5 @@ services:
     ports:
       - "127.0.0.1:8888:8888"
     volumes:
-      - ./py3/root_jupyter:/root/.jupyter
+      - ./jupyterlab/root_jupyter:/root/.jupyter
       - ./workspace:/workspace
