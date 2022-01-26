@@ -24,4 +24,4 @@ RUN python3 -m pip install --upgrade pip \
     ipywidgets \
     import-ipynb
 
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]
+# CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]
