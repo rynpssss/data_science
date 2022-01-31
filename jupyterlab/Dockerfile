@@ -24,4 +24,15 @@ RUN python3 -m pip install --upgrade pip \
     ipywidgets \
     import-ipynb
 
-# CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]
+# 基本モジュール
+RUN pip install --no-cache-dir \
+    numpy \
+    pandas \
+    scikit-learn \
+    matplotlib \
+    japanize_matplotlib \
+    seaborn
+
+# 追加パッケージ（必要に応じて）
+RUN pip install --no-cache-dir \
+    pandas_profiling
