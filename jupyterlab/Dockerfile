@@ -31,8 +31,10 @@ RUN pip install --no-cache-dir \
     scikit-learn \
     matplotlib \
     japanize_matplotlib \
-    seaborn
+    seaborn \
+    statsmodels
 
 # 追加パッケージ（必要に応じて）
 RUN pip install --no-cache-dir \
-    pandas_profiling
+    pandas_profiling \
+    lmdiag
