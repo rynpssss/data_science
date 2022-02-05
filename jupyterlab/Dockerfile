@@ -37,4 +37,6 @@ RUN pip install --no-cache-dir \
 # 追加パッケージ（必要に応じて）
 RUN pip install --no-cache-dir \
     pandas_profiling \
-    lmdiag
+    lmdiag \
+    xgboost \
+    lightgbm
